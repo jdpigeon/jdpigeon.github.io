@@ -18,6 +18,22 @@ a {
   transition: all 0.2s ease;
 }
 
+img {
+  width: 100px;
+}
+
+ol, ul {
+  padding-left: 10px;
+}
+
+.eeg {
+  border: 1px solid rgb(191, 191, 191);
+}
+
+.image-circle {
+  width: 150px;
+}
+
 .summary {
   font-family: 'Farsan';
   font-size: 1.6em;
@@ -70,4 +86,11 @@ a:hover{
 
 .item-detail h3{
   margin-top:0;
+}
+
+@media (max-width: 414px) {
+  h1 { font-size: 30px }
+  h2 { font-size: 25px }
+  img { width: 60px }
+  .pull-right { font-size: 15px; padding-top: 10px}
 }
