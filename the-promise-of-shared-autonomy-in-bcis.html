@@ -42,9 +42,18 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-2 col-xs-2">
-    </div>
-    <div class="col-lg-8 col-xs-8" >
+    <div class="col-lg-6 col-lg-offset-3 col-xs-12" >
+      <div class="dropdown">
+      <div class="glyphicon glyphicon-collapse-down" type="button" id="dropdownMenu1" data-toggle="dropdown" style="font-size: 30px">
+      </div>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="./index.html">Home</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="./authors.html">About</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="./resume.html">Resume</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="./archives.html">Archive</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="./feed/all.atom.xml">Feed</a></li>
+      </ul>
+      </div>
 <hr>
 <section id="content" class="body">
   <header id="article_header" class="page">
@@ -62,7 +71,7 @@
   <div class="entry-content">
     <br>
     <p>For a person in 2017 with muscular dystrophy, cerebral palsy, or another disability that impairs mobility, the opportunities to live a normal, functioning life are greater than any other point in history. Just check out how cool this robotic arm is...</p>
-<iframe id="video" width="560" height="315" align="middle" src="https://www.youtube.com/embed/iZYxJFROew8?ecver=1" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/iZYxJFROew8?ecver=1" frameborder="0" allowfullscreen></iframe>
 
 <p>With the current level of sophistication in artificial limbs, the field is now running up against an interesting problem: how should they be controlled? Using a standard joystick controller efficiently requires a significant amount of training, effort, and concentration. Furthermore, many of the patients who would benefit from an artificial limbs also have upper body mobility issues that make operating a standard joystick controller difficult. Thus, robotics researchers are now exploring a concept known as shared autonomy, which shares control over a prosthetic limb between the patient and an artificially intelligent system.</p>
 <p>Robotics engineers are now exploring a concept known as shared autonomy to assist patients in controlling artificial limbs while still retaining the sense of direct control. In the robotics systems pioneered by robotics researcher <a href="https://homes.cs.washington.edu/~siddh/">Sidd Srinivasa</a>, direct control over a robotic limb is shared by the user and an intelligent system that calculates appropriate movements based on its estimate of the user’s intent. When attempting to perform an action, the user’s input is passed through a machine learning algorithm that calculates the probability that the user is attempting to perform each of a number of possible actions. When a threshold of certainty is reached for a particular action, the system then calculates the necessary movements required to complete that action. The key innovation to this shared autonomous system, however, is that this set of instructions is then blended with raw input from the user. For a full description of how this system works, see the paper <a href="https://arxiv.org/abs/1503.07619">Shared Autonomy via Hindsight Optimization</a>.</p>
@@ -82,21 +91,7 @@ The benefits of shared autonomy in these research applications should be seen as
 
 </section>
     </div>
-
-    <div class="col-lg-2 col-xs-2">
-        <div class="dropdown">
-        <span class="glyphicon glyphicon-collapse-down" type="button" id="dropdownMenu1" data-toggle="dropdown" style="font-size: 30px">
-        </span>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="./index.html">Home</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="./authors.html">About</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="./resume.html">Resume</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="./archives.html">Archive</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="./feed/all.atom.xml">Feed</a></li>
-        </ul>
-        </div>
-    </div>
-    </div>
+  </div>
 </div>
 
     <hr>
